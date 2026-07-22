@@ -6,6 +6,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @ToString
+@EqualsAndHashCode
 public class MovieDTO implements Serializable {
     private String name;
     private String director;
